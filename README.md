@@ -1,2 +1,2 @@
 # moulinette_minishell2
-Moulinette
+Merci de respecter la forme de la moulinette quand vous ajoutez une commande.
