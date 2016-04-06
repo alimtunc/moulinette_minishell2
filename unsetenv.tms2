@@ -1,0 +1,2 @@
+echo -e "unsetenv PATH\nenv" | env -i $SHELL_REF | grep PATH | wc -l > .tmp1
+echo -e "unsetenv PATH\nenv" | env -i $MY_SHELL | grep PATH | wc -l > .tmp2
