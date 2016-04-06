@@ -1,0 +1,2 @@
+echo -e "setenv TOTO testde:value\nenv" | $SHELL_REF | grep TOTO > .tmp1
+echo -e "setenv TOTO testde:value\nenv" | $MY_SHELL | grep TOTO > .tmp2
