@@ -1,2 +1,0 @@
-echo -e "exit 42" | $SHELL_REF >& /dev/null; echo $? >> .tmp1
-echo -e "exit 42" | $MY_SHELL >& /dev/null; echo $? >> .tmp2
