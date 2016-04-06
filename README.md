@@ -3,6 +3,7 @@
 Fournir un fichier '.tms2' avec l'instruction à effectuer :
 
 echo -e "setenv TOTO testde:value\nenv" | $SHELL_REF | grep TOTO > .tmp1
+
          ^---------------------------^    ^--------^   ^-------^
              Commande à effectuer           Tcsh         Résultat à catch, et le rediriger dans .tmp1
 
