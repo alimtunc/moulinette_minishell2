@@ -1,0 +1,2 @@
+echo -e "ls;ls" | $SHELL_REF > .tmp1
+echo -e "ls;ls" | $MY_SHELL > .tmp2

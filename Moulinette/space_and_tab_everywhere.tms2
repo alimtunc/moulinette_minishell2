@@ -1,0 +1,2 @@
+echo -e "\t \tls\t\t  \t ;\t  \tls\t\t  " | $SHELL_REF > .tmp1
+echo -e "\t \tls\t\t  \t ;\t  \tls\t\t  " | $MY_SHELL > .tmp2

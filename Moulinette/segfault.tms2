@@ -1,0 +1,2 @@
+{ echo "./Moulinette/sigsegv" | $SHELL_REF >& .tmp1; cat .tmp1 | wc -l >& .tmp1; }
+{ echo "./Moulinette/sigsegv" | $MY_SHELL | wc -l >& .tmp2; }
